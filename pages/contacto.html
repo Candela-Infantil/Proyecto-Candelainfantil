@@ -39,50 +39,36 @@
       </nav>
     </div>
   </header>
-<main> 
 
-  <div class="contenedor-formulario">
-    <h1> Contactanos </h1>
-    <form action="">
-        <label for="nombre-usurio">Nombre y Apellido</label>
-        <input type="text" id="nombre-usuario" placeholder="Ej: Federico Mendit " required>
-        <label for="email">Email</label>
-        <input type="text" id="email" placeholder="Ej: Federico@gmail.com" required>
-        <label for="telefono">Telefono</label>
-        <input type="text" id="telefono" placeholder="001111000" required>
-        <label for="asunto">Asunto</label>
-    <select name="asunto" id="">
-        <option value="">Productos</option>
-        <option value="">Servicios</option>
-        <option value="">RRHH</option>
-        <option value="">Presupuesto</option>
-        <option value="">Otro asunto</option>
-    </select>
+  <div class="contenedor">
+    <form action="" class="form">
+      <div class="form-header">
+        <h1 class="form-title">C <span>ontacto</span></h1>
+      </div>
     
-    <div>
-    <label for="consulta">Consulta</label>
-    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-  </div>
-  
-    <label for="">Aceptas nuestros términos y condiciones?</label>
-    <input type="checkbox" value="aceptas-terminos" required> 
-  
-    <label for="">Quieres recibir las ultimas novedades?</label>
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input type="text" class="form-input" id="nombre"  placeholder="Escriba su nombre">
     
-    <label for="">Si</label>
-    <input type="radio" name="noticias" value="noticias-si">
-    
-    <label for="">No</label>
-    <input type="radio" name="noticias" value="noticias-no">
- 
       
-    <input type="submit" value="Enviar">
+      <label for="apellido" class="form-label">Apellido:</label>
+      <input type="text" class="form-input" id="apellido" placeholder="Escriba su apellido"> 
+    
+    
+      <label for="correo" class="form-label">Correo electronico:</label>
+      <input type="email" class="form-input" id="correo" placeholder="escriba su nombre">
+
+      
+      <label for="mensaje" class="form-label">Mensaje:</label>
+      <textarea id="mensaje" class="form-textarea" placeholder="Aqui escriba su mensaje"
+      ></textarea>
+
+      <input type="submit" class="btn-submit" value="Enviar Consulta">
+      
+    </form>
+  </div>
+
 
   
-
-</form>
-
-</main>
 
   <footer class="pie-pagina">
     
