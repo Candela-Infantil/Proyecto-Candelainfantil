@@ -9,7 +9,7 @@ main {
 }
 
 h1 {
-  color: rgb(3, 3, 3);
+  color: rgb(7, 0, 44);
   text-align: center;
   overflow: hidden;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -32,7 +32,7 @@ input, textarea {
 footer {
   position: relative;
   width: 100%;
-  background-color: #212022;
+  background-color: #000131;
   min-height: 0%;
   position: relative;
   bottom: 0;
@@ -54,8 +54,8 @@ footer .social_mediali {
 }
 
 footer .social_media li a {
-  font-size: 2em;
-  color: white;
+  font-size: 2.3em;
+  color: rgb(255, 255, 255);
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -70,14 +70,22 @@ footer p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+li {
+  color: #000131;
+}
+
+.navbar {
+  background-color: #000131;
+}
+
 .btn-submit {
   width: 100%;
   font-family: serif;
   outline: none;
-  background: #1f8868;
+  background: #919191;
   font-size: 16px;
   border: none;
-  color: #fff;
+  color: rgb(24, 0, 161);
   padding: 15px 0;
   cursor: pointer;
 }
@@ -88,14 +96,14 @@ footer p {
 }
 
 .card:hover {
-  box-shadow: 0 5px 15px rgba(3, 89, 92, 0.5);
+  box-shadow: 0 5px 15px rgba(7, 0, 41, 0.5);
   transform: translateY(-15px);
 }
 
 .contenedor .form .form-header .form-title {
   font-weight: normal;
   font-family: sans-serif;
-  color: #00a777;
+  color: #0003a7;
   text-align: center;
   padding: 14px 0;
 }
@@ -113,6 +121,8 @@ footer p {
   margin-top: 30px;
   padding-top: 30px;
   border-radius: 3px;
+  margin-top: 0px;
+  margin-block-end: 0px;
 }
 
 .form-label {
@@ -141,6 +151,152 @@ footer p {
   resize: vertical;
   max-width: 700px;
   min-height: 50px;
+}
+
+.fondo {
+  background-color: rgb(0, 0, 0);
+}
+
+.contenedor-mapa {
+  padding-top: 35px;
+  background-color: #dbdbdb;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.slider {
+  background-color: aliceblue;
+  height: 60px;
+  opacity: 0.7;
+}
+
+.contenedor {
+  background-color: #dbdbdb;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 80px 90;
+  overflow: hidden;
+}
+
+.container .main-card {
+  width: 200%;
+  display: flex;
+}
+
+.card {
+  margin: 7px;
+}
+
+.main-card .cards {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  justify-content: center;
+}
+
+.main-card .cards .card {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 30px;
+  border-color: rgb(0, 1, 71);
+}
+
+.cards .card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cards .card .content .img {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 30px;
+  background: rgb(0, 1, 71);
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.cards .card .content .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.card .content .detalles .nombre {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(8, 0, 77);
+}
+
+.card .content .detalles .trabajo {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  color: rgb(8, 0, 77);
+}
+
+.container {
+  margin-top: 3%;
+  box-shadow: 0.9;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.text-center {
+  background-color: rgb(173, 173, 173);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.Card-body {
+  background-color: rgb(173, 173, 173);
+}
+
+.Card-title {
+  color: rgb(0, 1, 71);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Card-text {
+  color: rgb(0, 1, 71);
+  padding-left: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.fondo {
+  background-color: #dbdbdb;
 }
 
 /*# sourceMappingURL=styles.css.map */
