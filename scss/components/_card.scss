@@ -5,8 +5,74 @@
    }
 
     .card:hover {
-    box-shadow: 0 5px 15px rgba(7, 0, 41, 0.5);
+    box-shadow: 0 5px 15px $color-primario;
     transform: translateY(-15px);
    }
 
+   
+.container .main-card{
+   width: 200%;
+   display: flex;
+ }
+ 
+ .card{
+   margin: 7px;
+ 
+ }
+ 
+ .main-card .cards{
+   width: calc(100% / 2 - 10px);
+   display: flex;
+   flex-wrap: wrap;
+   margin: 30px;
+   justify-content: center;
+ }
+ 
+ .main-card .cards .card{
+ background: $color-quinto;
+ padding: 30px;
+ border-radius: 30px;
+ border-color:$color-secundario;
+ }
+ 
+ .cards .card .content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .cards .card .content .img{
+   height: 130px;
+   width: 130px;
+   margin-bottom: 30px;
+   background: $color-secundario;
+   padding: 3px;
+   border-radius: 50%;
+ }
+ 
+ .cards .card .content .img img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 3px solid $color-quinto;
+ }
+ 
+ .card .content .detalles .nombre{
+   font-size: 20px;
+   font-weight: 500;
+   color: $color-secundario;
+ }
+ 
+ .card .content .detalles .trabajo{
+   font-size: 20px;
+   color:$color-terciario;
+ }
+ 
+ 
+ .info{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
   

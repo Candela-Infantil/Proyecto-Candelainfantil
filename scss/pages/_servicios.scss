@@ -3,17 +3,17 @@
 }
 
 .Card-title{
-    color: rgb(0, 1, 71);
+    color: $color-secundario;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Card-text{
-    color: rgb(0, 1, 71);
+    color:$color-secundario;
     padding-left: 15px ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .fondo{
 
- background-color:#dbdbdb;
+ background-color: $color-cuarto;
 }

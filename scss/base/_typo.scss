@@ -1,15 +1,17 @@
 
 h1{
-    color: rgb(7, 0, 44);
+    color: $color-primario;
     text-align: center;
     overflow: hidden;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2{
     text-align: center;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: $color-secundario;
    }
 
    input, textarea{
@@ -19,3 +21,4 @@ h2{
     box-sizing: border-box;
     font-size: 17px;
 }
+
